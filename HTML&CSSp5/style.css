@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+/*  header css */
+.nav-item {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  margin: 15px 0;
+}
+.nav-link {
+  margin: 15px;
+  text-decoration: none;
+  color: white;
+  padding: 7px;
+}
+.nav-link:hover {
+  color: red;
+  background-color: #3b3b43;
+  border-radius: 5px;
+}
+/* greeting section css */
+
+.greeting-section {
+  margin-bottom: 100px;
+}
+.greeting-content {
+  margin: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.waving-hand {
+  width: 20px;
+}
+.head-img {
+  width: 400px;
+}
+
+/* project section css */
+
+/* footer section  */
+footer{
+    margin-top: 20px;
+}
+.footer-div{
+margin: 20px auto;
+}
+.social-icon {
+  width: 30px;
+  margin: 0px 10px;
+}
+
+/* media query  */
+@media (min-width: 1440px) {
+  /* greeting section css */
+  .greeting-section {
+    display: flex;
+    justify-content: center;
+  }
+  .pimg {
+    width: 400px;
+  }
+  /* project section css */
+  .Projects-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .pimg {
+    width: 400px;
+  }
+  .projects {
+    margin: 50px;
+  }
+}
+@media (min-width: 1024px) {
+  /* greeting section css */
+  .greeting-section {
+    display: flex;
+    justify-content: center;
+  }
+  .pimg {
+    width: 400px;
+  }
+}
+@media (min-width: 425px) {
+  .pimg {
+    width: 400px;
+  }
+}
+@media (max-width: 425px) {
+  .head-img {
+  width: 300px;
+}
+  
+    .pimg {
+    width: 300px;
+  }
+
+}
